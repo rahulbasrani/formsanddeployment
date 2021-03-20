@@ -11,7 +11,7 @@ exports.author_list = function (req, res, next) {
         return next(err);
       }
 
-      res.render("", {
+      res.render("listAuthor", {
         title: "Author List",
         author_list: list_authors,
       });
